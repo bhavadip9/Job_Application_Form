@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.labelsize {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.inputbox, .selectbox, .agecheckbox {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputbox:focus, .selectbox:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+.agecheckbox {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
